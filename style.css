@@ -118,7 +118,7 @@ main{
 /* Service Section   */
 .skill-section{
     align-items: center;
-    margin-bottom: 130px;
+    margin-bottom: 110px;
 }
 .service-header-title{
     margin-bottom: 30px;
@@ -179,4 +179,31 @@ main{
 }
 .skill-btn{
     text-align: center;
+}
+
+
+.contact{
+    display: flex;
+    gap: 130px;
+    background: #FFF8F3;
+    padding: 130px 230px;
+}
+.contact-sec a{
+    margin-left: 24px;
+}
+.contact-sec h3,p {
+    text-align: left;
+    margin-bottom: 20px;
+}
+.contact input,textarea{
+    margin-bottom: 24px;
+    padding: 18px 30px;
+    border: none;
+    width: 100%;
+}
+textarea{
+    resize: none;
+}
+.contact-sec .contact-btn{
+    width: 150px;
 }
